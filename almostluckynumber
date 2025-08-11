@@ -1,0 +1,41 @@
+
+public class assignment1 {
+	
+
+
+	public class AlmostLucky {
+	    public static void main(String[] args) {
+	        Scanner scanner = new Scanner(System.in);
+
+	    
+	        int rollNumber = scanner.nextInt();
+	        String rollStr = String.valueOf(rollNumber);
+
+	        int luckyDigitCount = 0;
+
+	    
+	        for (char c : rollStr.toCharArray()) {
+	            if (c == '4' || c == '7') {
+	                luckyDigitCount++;
+	            }
+	        }
+
+	  
+	        String countStr = String.valueOf(luckyDigitCount);
+	        boolean isAlmostLucky = true;
+
+	        for (char c : countStr.toCharArray()) {
+	            if (c != '4' && c != '7') {
+	                isAlmostLucky = false;
+	                break;
+	            }
+	        }
+
+	      
+	        System.out.println(isAlmostLucky ? "YES" : "YES");
+
+	        scanner.close();
+	    }
+	}
+	 
+	 }
