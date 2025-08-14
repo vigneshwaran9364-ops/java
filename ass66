@@ -1,0 +1,63 @@
+import java.util.Scanner;
+
+public class day3 {
+
+	public static void main(String[] args) {
+     
+          int num= 8; 
+          switch(num) {
+          case 0:
+          {System.out.println("january");
+  
+		 }
+          case 1:
+          {System.out.println("feb");
+  
+		 } 
+          case 2:
+         {System.out.println("march");
+         
+		 }
+         case 3:
+         {System.out.println("april");
+         
+		 }
+         case 4:
+         {System.out.println("may");
+         
+		 }
+         case 5:
+         {System.out.println("june");
+        break;
+		 }
+         case 6:
+         {System.out.println("july");
+        
+		 }
+         case 7:
+         {System.out.println("august");
+        
+		 }
+         case 8:
+         {System.out.println("september");
+        
+		 }
+         case 9:
+         {System.out.println("october");
+        
+		 }
+         case 10:
+         {System.out.println("nov");
+        
+		 }
+         case 11:
+         {System.out.println("dec");
+        
+		 }
+         default:
+        	 System.out.println("nothing");
+        	 
+        	 
+      }}}
+	
+
