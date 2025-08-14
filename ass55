@@ -1,0 +1,22 @@
+package day8;
+
+public class statickeywpord{
+	int rollno = 45;
+	String name = "vick";
+	static String collegename = "mzcet";
+    void display(int a,String name) 
+    {
+    	System.out.println(a+" "+name+" "+collegename);
+    }
+    
+    public static void main(String[] args) {
+    	statickeywpord obj= new statickeywpord();
+    	statickeywpord.collegename="mzcet";
+    	obj.display(45, "vick");
+    	obj.display(46, "kasi");
+    	obj.display(47, "sanj");
+    	obj.display(48, "shiy");
+		
+	}
+	
+}
