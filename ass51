@@ -1,0 +1,21 @@
+package day8;
+
+public class static2 {
+	int empno = 45;
+    String name ="vign";
+	static String employee = "mzcet";
+    void display(int a,String name)
+    {
+    	System.out.println(a+" "+name+" "+employee);
+    }
+    
+    public static void main(String[] args) {
+    	static2 obj= new static2();
+    	static2.employee="mzcet";
+    	obj.display(45, "vick");
+    	obj.display(46, "kasi");
+    	obj.display(47, "sanj");
+    	obj.display(48, "shiy");
+	}
+
+}
