@@ -1,0 +1,19 @@
+package day9;
+//superkeywordparentconstructor
+class bird {
+	bird(){
+		System.out.println("Signing");
+		
+	}
+	
+}
+class Dog extends bird{
+	Dog(){
+		System.out.println("Bow Bow");
+	}
+}
+public class new3 {
+public static void main(String[] args) {
+	Dog obj =new Dog();
+}
+}
