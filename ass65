@@ -1,0 +1,27 @@
+package day9;
+class Bird{
+	String color="purple";
+	void eat() {
+		System.out.println("Eating");
+	}
+}
+class Dog extends Bird {
+	void bark() {
+		System.out.println("Barking");
+	}
+	void display() {
+		super.eat();
+		bark();
+		
+	}
+}
+public class newan1 {
+
+	public static void main(String[] args) {
+		obj obj=new Dog();
+		obj.display();
+	 
+
+	}
+
+}
