@@ -1,0 +1,33 @@
+package day9;
+
+interface Animal
+{
+	void sound();
+	
+	default void run()
+	{
+		System.out.println("running");
+	}
+	static void eat()
+	{
+		System.out.println("eating");
+	}
+}
+
+class dog implements Animal
+{
+	public void sound()
+	{
+		System.out.println("Bow");
+	}
+}
+
+public class interface1{
+
+	public static void main(String[] args)
+	{
+		dog obj= new dog();
+		obj.sound();
+		
+	}
+}
