@@ -1,0 +1,29 @@
+package day9;
+
+class Animal{
+	String color ="Red";
+	
+}
+class bird
+{
+	String color = "Purple";
+	
+}
+class Dog extends bird 
+{
+	String color = "White";
+	void display() {
+		System.out.println(color);
+		System.out.println(super.color);
+	}
+}
+public class newan {
+
+	public static void main(String[] args) {
+		
+Dog obj=new Dog();
+obj.display();
+
+	}
+
+}
