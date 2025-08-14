@@ -1,0 +1,13 @@
+package day7;
+import java.util.Scanner;
+public class character {
+
+	public static void main(String[] args) {
+	char ch='c';
+		
+		char ch1=(char)(ch-32);
+		System.out.println(ch1);
+		
+	}
+
+}
