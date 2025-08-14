@@ -1,0 +1,19 @@
+package day8;
+
+public class static5 {
+	String tripname;
+	String vagamon;
+	int price;
+	
+	public static void main(String[] args) {
+		static5 obj = new static5();
+		System.out.println(obj.tripname);
+		static5 obj1 = new 	static5();
+		System.out.println(obj1.price);
+		obj.price=50000;
+		obj.tripname="vagamon";
+		System.out.println(obj.price);
+		System.out.println(obj.tripname);
+	}
+
+}
