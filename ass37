@@ -1,0 +1,15 @@
+package day4;
+import java.util.Scanner;
+public class whiles {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		int num =1;
+		while(num<=20)
+		{
+			System.out.println(num);
+			num++;
+		}
+	}
+
+}
