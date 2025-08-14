@@ -1,0 +1,34 @@
+package day8;
+
+public class staticmax {
+	int rollno = 45;
+	String name = "vick";
+	static String collegename = "mzcet";
+	static {
+		System.out.println("Mount Zion");
+	}
+
+    void display(int a,String name) 
+    {
+    	System.out.println(a+" "+name+" "+collegename);
+    }
+    public static void show(int a)
+    {
+    	static3.employee = "MountZion";
+    	System.out.println(a+" "+collegename);
+    }
+    
+	public static void main(String[] args) {
+
+    	staticmax obj= new staticmax();
+    	staticmax.collegename="mzcet";
+    	obj.display(45, "vick");
+    	obj.display(46, "kasi");
+    	obj.display(47, "sanj");
+    	obj.display(48, "shiy");
+
+    		System.out.println("Nice to Meet you");
+
+    	}
+
+}
