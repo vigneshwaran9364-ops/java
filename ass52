@@ -1,0 +1,24 @@
+package day8;
+
+public class static3 {
+	 String name = "vicky";
+	    static String employee = "ABC";
+	    
+	    void display(int a, String name )
+	    {
+	    	System.out.println(a+" "+name+ " " +employee);
+	    }
+	    public static void show(int a)
+	    {
+	    	static3.employee = "MountZion";
+	    	System.out.println(a+" "+employee);
+	    }
+	    
+	public static void main(String[] args) {
+	   static3.show(55);
+	   static3 obj = new static3();
+	   obj.display(65, "vicky");
+
+	}
+
+}
