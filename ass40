@@ -1,0 +1,28 @@
+package DAY5;
+
+import java.util.Scanner;
+
+public class palindrome{
+	
+	    public static void main(String[] args){
+	        Scanner sc=new Scanner( System.in);
+	        System.out.println("Enter the value:");
+	        int num=sc.nextInt();
+	        int rev=0;
+	        int num2=num;
+	          while (num>0)
+	          {
+	          int temp=num%10;
+	          rev=rev*10+temp;
+	          num=num/10;
+	          }
+	          System.out.println(rev);
+	          if(num2==rev){
+	              System.out.println("it is palindrome");
+	          }
+	          else{
+	              System.out.println("it is not a palindrome");
+	          }
+	        
+	    }}
+
