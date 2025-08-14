@@ -1,0 +1,15 @@
+kage day4;
+import java.util.Scanner;
+public class forloop {
+//even
+	public static void main(String[] args) {
+		int num = 35;
+		int i;
+	  for(i=20;i<=num;i=i+2) {
+		  
+		 System.out.println(i);
+	  }
+	   
+
+	}}
+
