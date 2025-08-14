@@ -1,0 +1,37 @@
+package day7;
+import java.util.Scanner;
+
+public class method {
+
+		public int add(int a ,int b)
+	     {
+	    	 int sum=a+b;
+	    	 return sum;
+	     }
+		public static void main(String[] args) {
+			method obj =new method();
+			Scanner scan = new Scanner(System.in);
+			int num = scan.nextInt();
+			int num2 = scan.nextInt();
+			int num3 = scan.nextInt();
+			int num4 = scan.nextInt();
+			int num5 = scan.nextInt();
+			int num6 = scan.nextInt();
+			int num7 = scan.nextInt();
+			int num8 = scan.nextInt();
+			int num9 = scan.nextInt();
+			int num10 = scan.nextInt();
+		    int res= obj.add(num, num2);
+		    int res2= obj.add(num3, num4);
+		    int res3= obj.add(num5, num6);
+		    int res4= obj.add(num7, num8);
+		    int res5= obj.add(num9, num10);
+		    System.out.println(res);
+		    System.out.println(res2);
+		    System.out.println(res3);
+		    System.out.println(res4);
+		    System.out.println(res5);
+
+	}
+
+}
