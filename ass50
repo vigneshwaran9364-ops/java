@@ -1,0 +1,18 @@
+package day7;
+
+public class without_return_type_java {
+	public void dislay()
+	{
+		System.out.println("Hi Nice meet you");
+	}
+	public static void main(String[] args) {
+	
+	{
+		withoutreturntype =new withoutreturntype();
+		obj.display();
+		
+		
+	}
+
+	}
+	}
